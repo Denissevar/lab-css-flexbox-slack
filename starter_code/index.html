@@ -18,10 +18,9 @@
 
 <body>
   <!-- NAVBAR -->
-  <nav>
-    <div>
+  <nav class="navbar">
+    <div class="navbar__logo">
       <img src="./images/slack-logo.png" alt="Slack logo" />
-
       <ul>
         <li>
           <a href="#">Product</a>
@@ -37,7 +36,6 @@
         </li>
       </ul>
     </div>
-
     <div>
       <button>
         <img src="./images/icon-search.png" alt="Search icon">
@@ -46,7 +44,6 @@
       <button>
         <img src="./images/icon-menu.png" alt="Menu icon">
       </button>
-
       <ul hidden>
         <li>
           <a href="#">Sign in</a>
@@ -58,26 +55,20 @@
     </div>
   </nav>
 
-
   <!-- HEADER -->
-  <header>
+  <header class="hero">
     <div>
-      <h1>Great teamwork starts with a digital HQ</h1>
-
-      <p>Slack is free to try for as long as you'd like.</p>
-
-      <div>
-        <button>Sign up with email</button>
-
+      <h1 class="hero__title">Great teamwork starts with a digital HQ</h1>
+      <p class="hero_description">Slack is free to try for as long as you'd like.</p>
+      <div class="container-90">
+        <button class="button-signup">Sign up with email</button>
         <button>
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
       </div>
-
     </div>
-
-    <div>
+    <div class="screenshot">
       <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
